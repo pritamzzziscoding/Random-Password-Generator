@@ -74,4 +74,9 @@ button{
 
 .generate :hover{
     background-color: #5342bf;
+    cursor: pointer;
+}
+
+.copy :hover{
+    cursor: pointer;
 }
