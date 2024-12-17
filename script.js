@@ -21,6 +21,12 @@ function createPassword(){
     return pass;
 }
 
+function copyTexts() {
+    inputBox.select();
+    // Copy the value to the clipboard using the Clipboard API
+    navigator.clipboard.writeText(inputBox.value);
+}
+
 const generate = document.querySelector("button");
 const inputBox = document.querySelector("input");
 const copyText = document.querySelector(".copy");
@@ -34,8 +40,4 @@ copyText.addEventListener("click", function(){
     copyTexts();
 });
 
-function copyTexts() {
-    inputBox.select();
-    // Copy the value to the clipboard using the Clipboard API
-    navigator.clipboard.writeText(inputBox.value);
-}
+
