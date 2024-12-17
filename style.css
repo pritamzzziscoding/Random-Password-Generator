@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A294F9;
+}
+
+input{
+    padding: 3px;
+    border: 0px;
+    background-color: #CDC1FF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-box{
+    display: flex;
+    border: 1.5px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 3px;
+    background-color: #CDC1FF;
+}
+
+.container{
+    background-color: #F5EFFF;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    height: 20px;
+}
+
+.header{
+    display: block;
+    font-family:cursive;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #5342bf;
+}
+
+.click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    background-color: #d0b9e8;
+}
+
+.colour{
+    font-size: 4rem;
+}
+
+.copy{
+    font-size: 25px;
+}
+
+.generate :hover{
+    background-color: #5342bf;
+}
